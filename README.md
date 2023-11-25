@@ -28,11 +28,11 @@
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">👨🏻‍💻 About Me</h3>
 
 ###
 
-<p align="left">I'm Oğuzhan from Turkiye<br><br>- 🔭 I’m working as an Android developer<br>- 📚 I'm currently learning Kotlin Multiplatform and SwiftUI<br>- ⚡ In my free time I go to the gym</p>
+<p align="left">I'm an Android Developer passionate about creating innovative and user-friendly apps using Kotlin, Jetpack Compose, and the MVVM architecture. Welcome to my GitHub profile!<br><br>- 🌱 I’m currently learning advanced concepts in Kotlin and exploring new features in Jetpack Compose<br>- 💻 I’m looking to collaborate on open-source Android projects that make a difference.<br>- 💭 You can ask me about Android development and Kotlin generally.</p>
 
 ###
 
@@ -47,10 +47,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="40" alt="java logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" alt="apple logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="40" alt="swift logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="40" alt="git logo"  />
@@ -59,6 +55,13 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
 </div>
+
+###
+
+<h3 align="left">📚 My Latest Projects</h3>
+
+- [RadioRoam](https://github.com/oguzhaneksi/RadioRoam) - This app demonstrates use of media sessions with Jetpack Compose.
+- [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) - Seamless video paging application with Jetpack Compose
 
 ###
 
