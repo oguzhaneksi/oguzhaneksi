@@ -1,78 +1,113 @@
-<div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"  />
-</div>
+# Hi, I'm Oğuzhan 👋
 
-###
+**Senior Android Developer** focused on **Kotlin**, **Jetpack Compose**, and **Media3 / ExoPlayer**.  
+I build practical Android apps and developer tools — especially around **video playback**, **QoE analytics**, and **debugging/observability**.
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/oguzhan-eksi-185ab4130/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://twitter.com/oguzhaneksi97" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  </a>
-  <a href="https://medium.com/@ouzhaneki" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="medium logo"  />
-  </a>
-</div>
+📍 Dubai, UAE  
+💼 Android Developer @ OSN  
+✍️ Writing about Android media stack on Medium
 
-###
+---
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=oguzhaneksi.oguzhaneksi&"  />
-</div>
+## 🚀 What I’m focused on
 
-###
+- **Modern Android** (Kotlin, Compose, Coroutines, Flow)
+- **Media playback** (Jetpack Media3 / ExoPlayer, MediaSession)
+- **Playback analytics / QoE tooling** (startup time, buffering, session summaries)
+- **Developer-friendly tooling** (self-hosted observability, practical debugging workflows)
 
-<h1 align="center">Hello there 👋</h1>
+---
 
-###
+## 🛠️ Featured Projects
 
-<h3 align="left">👨🏻‍💻 About Me</h3>
+### [Media3Watch](https://github.com/oguzhaneksi/Media3Watch)
+Lightweight Android SDK to debug **Media3 video sessions** with:
+- readable **Logcat session summaries**
+- optional **real-time reporting**
+- self-hosted backend + **Grafana dashboards** (Ktor + PostgreSQL + Docker)
 
-###
+**Why it exists:** Crash logs don’t explain poor playback UX. Media3Watch helps inspect buffering/startup problems faster.
 
-<p align="left">I'm an Android Developer passionate about creating innovative and user-friendly apps using Kotlin, Jetpack Compose, and the MVVM architecture. Welcome to my GitHub profile!<br><br>- 🌱 I’m currently learning advanced concepts in Kotlin and exploring new features in Jetpack Compose<br>- 💻 I’m looking to collaborate on open-source Android projects that make a difference.<br>- 💭 You can ask me about Android development and Kotlin generally.</p>
+---
 
-###
+### [RadioRoam](https://github.com/oguzhaneksi/RadioRoam)
+Radio streaming app demonstrating:
+- **Media3 + MediaSession**
+- **MediaSessionService** background playback
+- Jetpack Compose + MVVM + Koin + Ktor
 
-<h3 align="left">🛠 Language and tools</h3>
+---
 
-###
+### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose)
+Shorts/Reels-style video feed demo built with:
+- **Jetpack Compose**
+- **Media3**
+- Hilt, Retrofit, Moshi, Coil, Coroutines
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain.svg" height="40" alt="android logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="40" alt="kotlin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-</div>
+---
 
-###
+## ✍️ Writing
 
-<h3 align="left">📚 My Latest Projects</h3>
+I write practical Android articles (mostly around Media3 / MediaSession / media app architecture):
 
-- [RadioRoam](https://github.com/oguzhaneksi/RadioRoam) - This app demonstrates use of media sessions with Jetpack Compose.
-- [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) - Seamless video paging application with Jetpack Compose
+- [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki)
+- [Basic background playback implementation with Media3 MediaSessionService](https://medium.com/@ouzhaneki)
+- [Android MediaSession nedir? Nasıl kullanılır?](https://medium.com/@ouzhaneki)
+- [Jetpack Media3 Nedir?](https://medium.com/@ouzhaneki)
 
-###
+👉 More: [medium.com/@ouzhaneki](https://medium.com/@ouzhaneki)
 
-<h3 align="left">🔥   My Stats :</h3>
+---
 
-###
+## 💡 What I can help with
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=oguzhaneksi&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="250" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=oguzhaneksi&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=oguzhaneksi&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+- Android app architecture (MVVM / Clean-ish modular setups)
+- Jetpack Compose UI development
+- Media3 / ExoPlayer integrations
+- Background playback with MediaSession
+- Playback analytics / QoE debugging
+- Internal tools for observability & developer workflows
 
-###
+---
+
+## 🧰 Tech Stack
+
+**Languages / Core**
+- Kotlin, Java
+- Coroutines, Flow
+
+**Android**
+- Jetpack Compose
+- Media3 / ExoPlayer
+- ViewModel / Navigation
+- Hilt / Koin
+
+**Networking / Data**
+- Retrofit / OkHttp
+- Ktor
+- Moshi / Kotlinx Serialization
+- Firebase (when needed)
+
+**Backend / Infra (for tooling projects)**
+- PostgreSQL
+- Docker
+- Grafana
+
+---
+
+## 🌍 Connect
+
+- GitHub: [@oguzhaneksi](https://github.com/oguzhaneksi)
+- Medium: [@ouzhaneki](https://medium.com/@ouzhaneki)
+- X: [@oguzhaneksi97](https://x.com/oguzhaneksi97)
+- LinkedIn: [Oğuzhan Ekşi](https://www.linkedin.com/in/oguzhan-eksi-185ab4130/)
+
+---
+
+## 🔭 Currently building / exploring
+
+- Media3 playback observability & QoE tooling
+- Android developer productivity workflows
+- Product-minded side projects (mobile + web)
+
+<!-- Pro tip: Update this section monthly. Even 2 lines is enough. -->
