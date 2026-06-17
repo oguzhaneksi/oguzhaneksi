@@ -1,6 +1,8 @@
 # Hi, I'm Oğuzhan 👋
 
-6 years building Android, the last few deep in OTT video: HLS/DASH delivery, Media3/ExoPlayer, DRM/Widevine, and QoE analytics.
+**Senior Android Developer, OTT & video streaming specialist.** I help video-first platforms ship scalable, stable native mobile and CTV apps: Media3/ExoPlayer, HLS/DASH delivery, multi-DRM (Widevine/PlayReady), and QoE analytics.
+
+6+ years, 10+ production apps across Android and Connected TV, 1M+ viewers. On a high-traffic MENA OTT platform I locked stability at >99% crash-free and cut cold-start by ~40%.
 
 Here's the thing though: debugging a streaming issue the conventional way means Charles Proxy + adb logcat + manually fetching the manifest in a browser. All at the same time. On a tethered device. Each round takes 15–30 minutes. I got tired of that, so I started building tools to pull that whole workflow into the app itself, then shipped them to Maven Central.
 
@@ -35,11 +37,11 @@ debugImplementation("io.github.oguzhaneksi:media3watch-overlay:1.1.0")
 
 ---
 
-### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) [![Stars](https://img.shields.io/github/stars/oguzhaneksi/TikTokCompose?style=flat&logo=github&label=%E2%AD%90&color=2b3137&labelColor=2b3137)](https://github.com/oguzhaneksi/TikTokCompose/stargazers)
+### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) · ⭐ 26
 Shorts/Reels-style vertical video feed. Media3 + Jetpack Compose reference architecture for paged video playback.
 
-### [AndroidTvCompose](https://github.com/oguzhaneksi/AndroidTvCompose) [![Stars](https://img.shields.io/github/stars/oguzhaneksi/AndroidTvCompose?style=flat&logo=github&label=%E2%AD%90&color=2b3137&labelColor=2b3137)](https://github.com/oguzhaneksi/AndroidTvCompose/stargazers)
-Self-initiated Android TV app built with Jetpack Compose. R&D side project only.
+### [AndroidTvCompose](https://github.com/oguzhaneksi/AndroidTvCompose) · ⭐ 7
+Self-initiated Android TV app built with Jetpack Compose. R&D side project that shipped to production.
 
 ---
 
