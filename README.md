@@ -1,113 +1,78 @@
 # Hi, I'm Oğuzhan 👋
 
-**Senior Android Developer** focused on **Kotlin**, **Jetpack Compose**, and **Media3 / ExoPlayer**.  
-I build practical Android apps and developer tools — especially around **video playback**, **QoE analytics**, and **debugging/observability**.
+Android engineer specialising in **video streaming** — HLS/DASH, Media3/ExoPlayer, DRM/Widevine, and QoE analytics. After years of debugging playback issues the slow way (Charles Proxy + manual logcat + manifest inspection by hand), I started building tools that make the invisible visible.
 
-📍 Dubai, UAE  
-💼 Android Developer @ OSN  
-✍️ Writing about Android media stack on Medium
+Currently freelancing — open to Android contract and senior full-time roles.
 
----
-
-## 🚀 What I’m focused on
-
-- **Modern Android** (Kotlin, Compose, Coroutines, Flow)
-- **Media playback** (Jetpack Media3 / ExoPlayer, MediaSession)
-- **Playback analytics / QoE tooling** (startup time, buffering, session summaries)
-- **Developer-friendly tooling** (self-hosted observability, practical debugging workflows)
+📍 Dubai, UAE · [Medium](https://medium.com/@ouzhaneki) · [LinkedIn](https://www.linkedin.com/in/oguzhan-eksi-185ab4130/) · [X](https://x.com/oguzhaneksi97)
 
 ---
 
-## 🛠️ Featured Projects
+## 🔬 Open Source
+
+### [StreamProbe](https://github.com/oguzhaneksi/StreamProbe)
+Real-time HLS/DASH debug overlay for Android — manifests, segment metrics, CDN headers, ABR decisions, all on-screen without touching your production build.
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.oguzhaneksi/streamprobe?label=Maven%20Central)](https://central.sonatype.com/search?q=io.github.oguzhaneksi)
+
+```kotlin
+debugImplementation("io.github.oguzhaneksi:streamprobe:<latest>")
+```
+
+**Why it exists:** Charles Proxy works, but takes 20+ minutes to set up every session. StreamProbe pulls the full debug workflow — manifests, segment timing, CDN cache, ABR switches — directly into the app.
+
+---
 
 ### [Media3Watch](https://github.com/oguzhaneksi/Media3Watch)
-Lightweight Android SDK to debug **Media3 video sessions** with:
-- readable **Logcat session summaries**
-- optional **real-time reporting**
-- self-hosted backend + **Grafana dashboards** (Ktor + PostgreSQL + Docker)
+QoE analytics SDK for Media3 — startup time, stall events, and session summaries in Logcat + optional self-hosted Grafana dashboard (Ktor + PostgreSQL + Docker).
 
-**Why it exists:** Crash logs don’t explain poor playback UX. Media3Watch helps inspect buffering/startup problems faster.
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.oguzhaneksi/media3watch-sdk?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.oguzhaneksi/media3watch-sdk)
 
----
+```kotlin
+implementation("io.github.oguzhaneksi:media3watch-sdk:1.1.0")
+debugImplementation("io.github.oguzhaneksi:media3watch-overlay:1.1.0")
+```
 
-### [RadioRoam](https://github.com/oguzhaneksi/RadioRoam)
-Radio streaming app demonstrating:
-- **Media3 + MediaSession**
-- **MediaSessionService** background playback
-- Jetpack Compose + MVVM + Koin + Ktor
+**Why it exists:** Crash logs don't explain poor playback UX. Media3Watch tracks what users actually experience.
 
 ---
 
-### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose)
-Shorts/Reels-style video feed demo built with:
-- **Jetpack Compose**
-- **Media3**
-- Hilt, Retrofit, Moshi, Coil, Coroutines
+### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) · ⭐ 26
+Shorts/Reels-style vertical video feed — Media3 + Jetpack Compose reference architecture for paged video playback.
+
+### [AndroidTvCompose](https://github.com/oguzhaneksi/AndroidTvCompose) · ⭐ 7
+Self-initiated Android TV app built with Jetpack Compose — R&D side project that shipped to production.
+
+---
+
+## 🚀 Currently building
+
+- **StreamProbe KMP Migration** — Real-time HLS/DASH debug overlay for Kotlin Multiplatform (Android, iOS).
 
 ---
 
 ## ✍️ Writing
 
-I write practical Android articles (mostly around Media3 / MediaSession / media app architecture):
-
 - [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki)
-- [Basic background playback implementation with Media3 MediaSessionService](https://medium.com/@ouzhaneki)
+- [Basic background playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki)
 - [Android MediaSession nedir? Nasıl kullanılır?](https://medium.com/@ouzhaneki)
 - [Jetpack Media3 Nedir?](https://medium.com/@ouzhaneki)
 
-👉 More: [medium.com/@ouzhaneki](https://medium.com/@ouzhaneki)
+👉 [medium.com/@ouzhaneki](https://medium.com/@ouzhaneki)
 
 ---
 
-## 💡 What I can help with
+## 📊 Stats
 
-- Android app architecture (MVVM / Clean-ish modular setups)
-- Jetpack Compose UI development
-- Media3 / ExoPlayer integrations
-- Background playback with MediaSession
-- Playback analytics / QoE debugging
-- Internal tools for observability & developer workflows
-
----
-
-## 🧰 Tech Stack
-
-**Languages / Core**
-- Kotlin, Java
-- Coroutines, Flow
-
-**Android**
-- Jetpack Compose
-- Media3 / ExoPlayer
-- ViewModel / Navigation
-- Hilt / Koin
-
-**Networking / Data**
-- Retrofit / OkHttp
-- Ktor
-- Moshi / Kotlinx Serialization
-- Firebase (when needed)
-
-**Backend / Infra (for tooling projects)**
-- PostgreSQL
-- Docker
-- Grafana
+<p align="left">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=oguzhaneksi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://streak-stats.demolab.com?user=oguzhaneksi&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
 ## 🌍 Connect
 
-- GitHub: [@oguzhaneksi](https://github.com/oguzhaneksi)
-- Medium: [@ouzhaneki](https://medium.com/@ouzhaneki)
-- X: [@oguzhaneksi97](https://x.com/oguzhaneksi97)
 - LinkedIn: [Oğuzhan Ekşi](https://www.linkedin.com/in/oguzhan-eksi-185ab4130/)
-
----
-
-## 🔭 Currently building / exploring
-
-- Media3 playback observability & QoE tooling
-- Android developer productivity workflows
-- Product-minded side projects (mobile + web)
-
-<!-- Pro tip: Update this section monthly. Even 2 lines is enough. -->
+- X: [@oguzhaneksi97](https://x.com/oguzhaneksi97)
+- Medium: [@ouzhaneki](https://medium.com/@ouzhaneki)
