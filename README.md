@@ -1,6 +1,8 @@
 # Hi, I'm Oğuzhan 👋
 
-Android engineer specialising in **video streaming** — HLS/DASH, Media3/ExoPlayer, DRM/Widevine, and QoE analytics. After years of debugging playback issues the slow way (Charles Proxy + manual logcat + manifest inspection by hand), I started building tools that make the invisible visible.
+6 years building Android. The last few deep in OTT video: HLS/DASH delivery, Media3/ExoPlayer, DRM/Widevine, and QoE analytics.
+
+Here's the thing though: debugging a streaming issue the conventional way means Charles Proxy + adb logcat + manually fetching the manifest in a browser. All at the same time. On a tethered device. Each round takes 15–30 minutes. I got tired of that. So I started building tools to pull that whole workflow into the app itself — and shipped them to Maven Central.
 
 Currently freelancing — open to Android contract and senior full-time roles.
 
@@ -11,52 +13,46 @@ Currently freelancing — open to Android contract and senior full-time roles.
 ## 🔬 Open Source
 
 ### [StreamProbe](https://github.com/oguzhaneksi/StreamProbe)
-Real-time HLS/DASH debug overlay for Android — manifests, segment metrics, CDN headers, ABR decisions, all on-screen without touching your production build.
+Real-time HLS/DASH debug overlay for Android. Manifests, segment metrics, CDN headers, and ABR decisions: all on-screen, no Charles Proxy, no tethered device, no production risk.
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.oguzhaneksi/streamprobe?label=Maven%20Central)](https://central.sonatype.com/search?q=io.github.oguzhaneksi)
+[![Maven Central](https://img.shields.io/badge/Maven%20Central-available-brightgreen?logo=apache-maven)](https://central.sonatype.com/search?q=io.github.oguzhaneksi+streamprobe)
 
 ```kotlin
 debugImplementation("io.github.oguzhaneksi:streamprobe:<latest>")
 ```
 
-**Why it exists:** Charles Proxy works, but takes 20+ minutes to set up every session. StreamProbe pulls the full debug workflow — manifests, segment timing, CDN cache, ABR switches — directly into the app.
-
 ---
 
 ### [Media3Watch](https://github.com/oguzhaneksi/Media3Watch)
-QoE analytics SDK for Media3 — startup time, stall events, and session summaries in Logcat + optional self-hosted Grafana dashboard (Ktor + PostgreSQL + Docker).
+QoE analytics SDK for Media3. Crash logs tell you something broke. They don't tell you a user sat through an 8-second startup time. Media3Watch tracks startup duration, stall count, and buffer health — in Logcat or on a self-hosted Grafana dashboard (Ktor + PostgreSQL + Docker).
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.oguzhaneksi/media3watch-sdk?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.oguzhaneksi/media3watch-sdk)
+[![Maven Central](https://img.shields.io/badge/Maven%20Central-1.1.0-brightgreen?logo=apache-maven)](https://central.sonatype.com/artifact/io.github.oguzhaneksi/media3watch-sdk)
 
 ```kotlin
 implementation("io.github.oguzhaneksi:media3watch-sdk:1.1.0")
 debugImplementation("io.github.oguzhaneksi:media3watch-overlay:1.1.0")
 ```
 
-**Why it exists:** Crash logs don't explain poor playback UX. Media3Watch tracks what users actually experience.
-
 ---
 
 ### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) · ⭐ 26
-Shorts/Reels-style vertical video feed — Media3 + Jetpack Compose reference architecture for paged video playback.
+Shorts/Reels-style vertical video feed. Media3 + Jetpack Compose reference architecture for paged video playback.
 
 ### [AndroidTvCompose](https://github.com/oguzhaneksi/AndroidTvCompose) · ⭐ 7
-Self-initiated Android TV app built with Jetpack Compose — R&D side project that shipped to production.
+Self-initiated Android TV app built with Jetpack Compose. R&D side project that shipped to production.
 
 ---
 
 ## 🚀 Currently building
 
-- **StreamProbe KMP Migration** — Real-time HLS/DASH debug overlay for Kotlin Multiplatform (Android, iOS).
+- **StreamProbe KMP Migration** — Real-time HLS/DASH debug overlay for Kotlin Multiplatform (Android, iOS)
 
 ---
 
 ## ✍️ Writing
 
-- [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki)
-- [Basic background playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki)
-- [Android MediaSession nedir? Nasıl kullanılır?](https://medium.com/@ouzhaneki)
-- [Jetpack Media3 Nedir?](https://medium.com/@ouzhaneki)
+- [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki/building-a-local-first-native-video-analytics-sdk-for-android-media3-117c3cf77baa) — Feb 2026
+- [Basic background playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki/basic-background-playback-implementation-with-media3-mediasessionservice-4d571f15bdc2) — Dec 2023
 
 👉 [medium.com/@ouzhaneki](https://medium.com/@ouzhaneki)
 
