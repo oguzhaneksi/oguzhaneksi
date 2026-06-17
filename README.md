@@ -1,10 +1,10 @@
 # Hi, I'm Oğuzhan 👋
 
-6 years building Android. The last few deep in OTT video: HLS/DASH delivery, Media3/ExoPlayer, DRM/Widevine, and QoE analytics.
+6 years building Android, the last few deep in OTT video: HLS/DASH delivery, Media3/ExoPlayer, DRM/Widevine, and QoE analytics.
 
-Here's the thing though: debugging a streaming issue the conventional way means Charles Proxy + adb logcat + manually fetching the manifest in a browser. All at the same time. On a tethered device. Each round takes 15–30 minutes. I got tired of that. So I started building tools to pull that whole workflow into the app itself — and shipped them to Maven Central.
+Here's the thing though: debugging a streaming issue the conventional way means Charles Proxy + adb logcat + manually fetching the manifest in a browser. All at the same time. On a tethered device. Each round takes 15–30 minutes. I got tired of that, so I started building tools to pull that whole workflow into the app itself, then shipped them to Maven Central.
 
-Currently freelancing — open to Android contract and senior full-time roles.
+Currently freelancing. Open to Android contract and senior full-time roles.
 
 📍 Dubai, UAE · [Medium](https://medium.com/@ouzhaneki) · [LinkedIn](https://www.linkedin.com/in/oguzhan-eksi-185ab4130/) · [X](https://x.com/oguzhaneksi97)
 
@@ -24,7 +24,7 @@ debugImplementation("io.github.oguzhaneksi:streamprobe:<latest>")
 ---
 
 ### [Media3Watch](https://github.com/oguzhaneksi/Media3Watch)
-QoE analytics SDK for Media3. Crash logs tell you something broke. They don't tell you a user sat through an 8-second startup time. Media3Watch tracks startup duration, stall count, and buffer health — in Logcat or on a self-hosted Grafana dashboard (Ktor + PostgreSQL + Docker).
+QoE analytics SDK for Media3. Crash logs tell you something broke. They don't tell you a user sat through an 8-second startup time. Media3Watch tracks startup duration, stall count, and buffer health, in Logcat or on a self-hosted Grafana dashboard (Ktor + PostgreSQL + Docker).
 
 [![Maven Central](https://img.shields.io/badge/Maven%20Central-1.1.0-brightgreen?logo=apache-maven)](https://central.sonatype.com/artifact/io.github.oguzhaneksi/media3watch-sdk)
 
@@ -38,21 +38,18 @@ debugImplementation("io.github.oguzhaneksi:media3watch-overlay:1.1.0")
 ### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) · ⭐ 26
 Shorts/Reels-style vertical video feed. Media3 + Jetpack Compose reference architecture for paged video playback.
 
-### [AndroidTvCompose](https://github.com/oguzhaneksi/AndroidTvCompose) · ⭐ 7
-Self-initiated Android TV app built with Jetpack Compose. R&D side project that shipped to production.
-
 ---
 
 ## 🚀 Currently building
 
-- **StreamProbe KMP Migration** — Real-time HLS/DASH debug overlay for Kotlin Multiplatform (Android, iOS)
+- **StreamProbe KMP Migration:** Real-time HLS/DASH debug overlay for Kotlin Multiplatform (Android, iOS)
 
 ---
 
 ## ✍️ Writing
 
-- [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki/building-a-local-first-native-video-analytics-sdk-for-android-media3-117c3cf77baa) — Feb 2026
-- [Basic background playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki/basic-background-playback-implementation-with-media3-mediasessionservice-4d571f15bdc2) — Dec 2023
+- [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki/building-a-local-first-native-video-analytics-sdk-for-android-media3-117c3cf77baa) · Feb 2026
+- [Basic background playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki/basic-background-playback-implementation-with-media3-mediasessionservice-4d571f15bdc2) · Dec 2023
 
 👉 [medium.com/@ouzhaneki](https://medium.com/@ouzhaneki)
 
@@ -67,8 +64,4 @@ Self-initiated Android TV app built with Jetpack Compose. R&D side project that 
 
 ---
 
-## 🌍 Connect
-
-- LinkedIn: [Oğuzhan Ekşi](https://www.linkedin.com/in/oguzhan-eksi-185ab4130/)
-- X: [@oguzhaneksi97](https://x.com/oguzhaneksi97)
-- Medium: [@ouzhaneki](https://medium.com/@ouzhaneki)
+Open to interesting streaming and Android problems. Easiest to reach me on [LinkedIn](https://www.linkedin.com/in/oguzhan-eksi-185ab4130/) or [X](https://x.com/oguzhaneksi97).
