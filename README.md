@@ -35,8 +35,11 @@ debugImplementation("io.github.oguzhaneksi:media3watch-overlay:1.1.0")
 
 ---
 
-### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) · ⭐ 26
+### [TikTokCompose](https://github.com/oguzhaneksi/TikTokCompose) [![Stars](https://img.shields.io/github/stars/oguzhaneksi/TikTokCompose?style=flat&logo=github&label=%E2%AD%90&color=2b3137&labelColor=2b3137)](https://github.com/oguzhaneksi/TikTokCompose/stargazers)
 Shorts/Reels-style vertical video feed. Media3 + Jetpack Compose reference architecture for paged video playback.
+
+### [AndroidTvCompose](https://github.com/oguzhaneksi/AndroidTvCompose) [![Stars](https://img.shields.io/github/stars/oguzhaneksi/AndroidTvCompose?style=flat&logo=github&label=%E2%AD%90&color=2b3137&labelColor=2b3137)](https://github.com/oguzhaneksi/AndroidTvCompose/stargazers)
+Self-initiated Android TV app built with Jetpack Compose. R&D side project only.
 
 ---
 
@@ -48,8 +51,10 @@ Shorts/Reels-style vertical video feed. Media3 + Jetpack Compose reference archi
 
 ## ✍️ Writing
 
+- [What is Android MediaSession and How to Use It?](https://medium.com/@ouzhaneki/what-is-android-mediasession-and-how-to-use-it-3cf911c74b77) · Apr 2026
+- [From Alpha to Almost-Production: Building Media3Watch (Part 2)](https://medium.com/@ouzhaneki/from-alpha-to-almost-production-building-media3watch-part-2-5c60cebebfcc) · Mar 2026
 - [Building a Local-First Native Video Analytics SDK for Android Media3](https://medium.com/@ouzhaneki/building-a-local-first-native-video-analytics-sdk-for-android-media3-117c3cf77baa) · Feb 2026
-- [Basic background playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki/basic-background-playback-implementation-with-media3-mediasessionservice-4d571f15bdc2) · Dec 2023
+- [Basic Background Playback with Media3 MediaSessionService](https://medium.com/@ouzhaneki/basic-background-playback-implementation-with-media3-mediasessionservice-4d571f15bdc2) · Dec 2023
 
 👉 [medium.com/@ouzhaneki](https://medium.com/@ouzhaneki)
 
